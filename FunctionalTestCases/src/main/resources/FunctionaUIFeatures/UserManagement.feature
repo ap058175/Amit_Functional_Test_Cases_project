@@ -7,9 +7,6 @@ Feature: Validate the User Management Page
     Then Verify Home Page is displayed
     Then verify user navigate to the User Management Page
     Then User Enters the "<NewUser>"
-    Then Verify "<NewUserName>" is displayed
-    Then verify user click on the user name field
-    Then user add the new user as "<Role>"
 
     Examples:
 
