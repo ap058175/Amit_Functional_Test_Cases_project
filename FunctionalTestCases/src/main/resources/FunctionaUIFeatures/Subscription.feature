@@ -8,6 +8,7 @@ Feature: Validate Subscription for Fashion
     Then verify user navigate to subscription Page
     Then verify user click on Fashion Plan
     Then verify user subscribed the pan
+    Then verify use signout from the application
 
     Examples:
     |UserName|
