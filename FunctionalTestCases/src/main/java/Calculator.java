@@ -20,6 +20,9 @@ public class Calculator {
     public void greet(){
         System.out.println("Hello Amit");
     }
+    public void Sign(){
+        System.out.println("Ok.....");
+    }
     public static void main(String[] args){
         Calculator calc=new Calculator();
         int a=10;
@@ -35,6 +38,7 @@ public class Calculator {
         int division= calc.division(a,b);
         System.out.println(division);
         calc.greet();
+        calc.Sign();
 
     }
 
