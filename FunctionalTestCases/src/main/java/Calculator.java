@@ -18,7 +18,7 @@ public class Calculator {
     }
 
     public void greet(){
-        System.out.println("Hello Amit");
+        System.out.println("Hello Rahul");
     }
     public static void main(String[] args){
         Calculator calc=new Calculator();
