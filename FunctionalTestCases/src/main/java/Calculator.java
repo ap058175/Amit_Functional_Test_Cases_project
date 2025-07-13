@@ -4,6 +4,10 @@ public class Calculator {
         return a+b;
     }
 
+    public int diff(int a, int b)
+    {
+        return a-b;
+    }
     public static void main(String[] args){
         Calculator calc=new Calculator();
         int a=10;
@@ -11,6 +15,8 @@ public class Calculator {
 
         int sum=calc.Addition(a,b);
         System.out.println(sum);
+        int diff= calc.diff(a,b);
+        System.out.println(diff);
     }
 
 }
