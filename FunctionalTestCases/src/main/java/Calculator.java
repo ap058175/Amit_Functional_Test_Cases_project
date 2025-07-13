@@ -8,6 +8,10 @@ public class Calculator {
     {
         return a-b;
     }
+
+    public int multiplication(int a, int b){
+        return a*b;
+    }
     public static void main(String[] args){
         Calculator calc=new Calculator();
         int a=10;
@@ -17,6 +21,8 @@ public class Calculator {
         System.out.println(sum);
         int diff= calc.diff(a,b);
         System.out.println(diff);
+        int multiplication=calc.multiplication(a,b);
+        System.out.println(multiplication);
     }
 
 }
