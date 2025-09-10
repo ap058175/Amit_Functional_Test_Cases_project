@@ -7,6 +7,7 @@ Feature: Validate Standard User Login
     Then Verify Home Page is displayed
     Then Verify Fashion Page is displayed
     Then Verify Shoes Page is displayed
+    Then Verify User Logout from Application
 
     Examples:
     |UserName|
