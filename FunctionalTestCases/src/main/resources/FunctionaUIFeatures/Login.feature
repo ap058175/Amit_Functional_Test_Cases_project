@@ -1,5 +1,7 @@
 Feature: Validate Standard User Login
 
+  @Login
+
   Scenario Outline: Validate Standard User Access
 
     Given Standard User Login into Flipkart Application

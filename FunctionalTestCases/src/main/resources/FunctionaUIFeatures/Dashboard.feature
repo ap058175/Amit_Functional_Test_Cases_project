@@ -1,4 +1,6 @@
-Feature: Validate the Dashboard
+Feature: Validate the Dashboard Page
+
+  @Dashboard
 
   Scenario Outline: Validate the Dashboard
     Given User login into Application
