@@ -9,6 +9,7 @@ Feature: Validate Standard User Login
     Then Verify Shoes Page is displayed
     Then Verify User Logout from Application
     And Verify User Login Page is displayed
+   Then Verify User enters "<UserName>" and Password
 
     Examples:
     |UserName|
